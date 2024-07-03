@@ -102,7 +102,7 @@ public class UserServiceImpl implements UserService {
 			if (StringUtils.hasLength(user.getEmail())) {
 				existUser.setEmail(user.getEmail());
 			}
-			if (StringUtils.hasLength(user.getEmail())) {
+			if (StringUtils.hasLength(user.getPassword())) {
 				existUser.setPassword(user.getPassword());
 			}
 
